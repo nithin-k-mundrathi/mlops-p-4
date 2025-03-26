@@ -7,3 +7,4 @@ logs/
 MLOPS_PROJECT_4.egg-info/
 venv/
 sa-mlops-p-4.json
+.dvc/
