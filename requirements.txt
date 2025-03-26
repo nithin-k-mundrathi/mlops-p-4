@@ -7,6 +7,8 @@ opencv-python-headless
 torchvision
 tensorboard
 dvc
+dvc-gs
+google-cloud-storage
 fastapi[all]
 uvicorn
 Pillow
