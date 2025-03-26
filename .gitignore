@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+*.pyo
+artifacts/models/
+artifacts/raw/
+logs/
+MLOPS_PROJECT_4.egg-info/
+venv/
+sa-mlops-p-4.json

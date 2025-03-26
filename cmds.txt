@@ -1,0 +1,19 @@
+# to see tensorboard 
+tensorboard --logdir=tensorboard_logs/
+
+# use dvc to create pipelines without scm
+dvc init --no-sc
+
+# run the dvc pipelines
+dvc repro
+
+# make a fastapi public, we install uvicorn 
+
+# run the fastapi and check with uvicorn
+uvicorn main:app --reload
+
+# Test the FastApi using SwaggerUI
+open http://127.0.0.1:8000/docs and try it out
+
+# Check the API in the postman and check it with formdata and upload Image
+http://127.0.0.1:8000/predict/
